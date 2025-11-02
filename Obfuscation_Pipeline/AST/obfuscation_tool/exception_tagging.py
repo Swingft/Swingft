@@ -22,11 +22,6 @@ def add_tagging(node):
     
 def repeat_match_member(data):
     def repeat_member(node):
-        node_id = id(node)
-        if node_id in VISITED_NODE:
-            return
-        VISITED_NODE.add(node_id)
-
         members = node.get("G_members", [])
         for member in members:
             repeat_member(member)
@@ -38,11 +33,6 @@ def repeat_match_member(data):
         node = item.get("node", item)
         if not isinstance(node, dict):
             return
-
-        node_id = id(node)
-        if node_id in VISITED_NODE:
-            return
-        VISITED_NODE.add(node_id)
         
         extensions = item.get("extension", [])
         children = item.get("children", [])
