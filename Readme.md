@@ -24,10 +24,10 @@
 
 ### 1. Download and Settings
 ```bash
-git clone <repository_url>
+git clone git@github.com:Swingft/Swingft.git
 python3 -m venv venv
 source venv/bin/activate
-cd swingft
+cd Swingft
 pip install -r requirements.txt
 ```
 
@@ -37,18 +37,18 @@ pip install -r requirements.txt
 - You can enter the elements you want to require or exclude for obfuscation and encryption. 
 - Preflight is an option that can be selected from three options: check, apply, and ignore via cli when it conflicts with internal regulations.
 ```bash
-python3 ./swingft --json [config_file_path/config_file_name] run
+./swingft --json [config_file_path/config_file_name] run
 ```
 
 ### 3. Swingft Run
 ```bash
-python3 ./swingft -c {config_file_path}
+./swingft run -c {config_file_path}
 ```
 
 ### 4. Get help
 ```bash
-python3 ./swingft -h
-python3 ./swingft run -h
+./swingft -h
+./swingft run -h
 ```
 
 ---
