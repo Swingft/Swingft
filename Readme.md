@@ -1,4 +1,5 @@
-<img width="400" height="171" alt="Swingft Logo" src="./SwingftLogo.png" />
+
+<img width="453" height="171" alt="Swingft Logo" src="https://github.com/user-attachments/assets/6ccbf1bc-e6ca-48fb-8ddd-bb0863992e93" />
 
 # Swingft
 
